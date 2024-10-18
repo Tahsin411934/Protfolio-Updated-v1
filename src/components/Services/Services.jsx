@@ -35,7 +35,7 @@ const Services = () => {
   const projects = data || [];
 
   return (
-    <div id="services" className={`font-inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#070d1b] text-gray-300'} m-0 pb-10 h-full`}>
+    <div id="services" className={`font-Inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#070d1b] text-gray-300'} m-0 pb-10 h-full`}>
       <div className="text-3xl font-bold flex items-center justify-center p-10">
         <h1>My Services</h1>
       </div>

@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner";
 import Services from "./components/Services/Services";
+import Skills from "./components/Skills/Skills";
 import { Spotlight } from "./components/ui/Spotlight";
 
 import Header from "./Header";
@@ -23,6 +24,11 @@ function App() {
       
       <section id="services">
         <Services/>
+      </section>
+
+
+      <section id="skills">
+        <Skills></Skills>
       </section>
 
 
