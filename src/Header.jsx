@@ -6,12 +6,12 @@ import useTheme from './Hook/useTheme';
 const Header = () => {
   const { theme, toggleTheme } = useTheme(); 
   return (
-    <div className={`container mx-auto lg:w-[90%] p-3 border-b  border-gray-600 font-inter`}>
+    <div className={`container mx-auto lg:w-[85%] p-3 border-b  border-gray-800 font-inter`}>
       
       <Navbar fluid rounded className={`${theme === 'light' ? 'bg-transparent' : 'bg-[#040615] text-gray-50'}`}>
         <Navbar.Brand href="/">
           <span className="self-center whitespace-nowrap text-xl font-bold font-Prata">
-            A<span className="text-yellow-500">. </span>Fahim
+            A<span className="text-yellow-500 font-bold text-xl"> . </span>Fahim
           </span>
         </Navbar.Brand>
         <div className="flex gap-5 md:order-2">
