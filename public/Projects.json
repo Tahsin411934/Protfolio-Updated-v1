@@ -9,6 +9,7 @@
     "clientSite": "https://github.com/Tahsin411934/FITFOCUS-client",
     "serverSiteLink": "https://github.com/Tahsin411934/FITFOCUS-server",
     "skills": [
+      
       "tailwind.png",
       "react (2).png",
       "node.png",
@@ -24,11 +25,13 @@
     "clientSite": "https://github.com/Tahsin411934/Food-Sharing-and-Surplus-Reduction-Platform-v1",
     "serverSiteLink": "https://github.com/Tahsin411934/Food-Sharing-and-Surplus-Reduction-Platform-v1-serverSide",
     "skills": [
-      "tailwind.png",
+      
       "react (2).png",
       "node.png",
       "firebase.png",
-      "mongodb.png"
+      "mongodb.png",
+      
+"tailwind.png"
     ]
   },
   {
@@ -39,11 +42,12 @@
     "clientSite": "https://github.com/Tahsin411934/Tourism-Management-Website-clientSide",
     "serverSiteLink": "https://github.com/Tahsin411934/Tourism-Management-Website-serverSite-",
     "skills": [
+      "flowbite.png",
       "tailwind.png",
       "react (2).png",
       "node.png",
-      "firebase.png",
-      "mongodb.png"
+      "firebase.png"
+      
       
     ]
   },

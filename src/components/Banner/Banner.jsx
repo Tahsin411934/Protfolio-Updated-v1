@@ -31,7 +31,7 @@ const Banner = () => {
   }, [theme]);
 
   return (
-    <div className={`${theme === 'light' ? 'bg-blue-100' : 'bg-[#040615] font-Inter text-gray-300'} m-0 h-full lg:h-screen pb-10 relative`}>
+    <div className={` ${theme === 'light' ? 'bg-blue-100' : 'bg-[#040615] font-Inter text-gray-300'} m-0 h-full lg:h-screen pb-10 relative`}>
      <MouseParticles g={1} num={6} color="random" cull="stats,image-wrapper" level={6} />
       <div className="lg:grid grid-cols-2 pt-16 mx-auto px-10 lg:w-[85%] items-center gap-0">
         <div data-aos="fade-right" className="mb-10">
