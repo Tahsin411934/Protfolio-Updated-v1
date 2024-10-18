@@ -174,6 +174,28 @@ const Skills = () => {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex justify-center items-center mt-20 ">
+            <div className="flex justify-center items-center mt-20">
+              <div
+                className="bg-gradient-to-t from-blue-700 to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
+                style={{
+                  clipPath:
+                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
+                  animationDelay: "2s",
+                }}
+              >
+                <div className="absolute text-center inset-0   px-4 py-8">
+                  <div className="flex items-center justify-center">
+                    <img width={100} height={100} src="tailwind.png" alt="tailwind.png" />
+                  </div>
+
+                  <h2 className="text-lg font-bold mb-2 text-white">tailwind css</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
 
         <SwiperSlide>
           <div className="flex justify-center items-center mt-20 ">
@@ -188,7 +210,7 @@ const Skills = () => {
               >
                 <div className="absolute text-center inset-0   px-4 py-8">
                   <div className="flex items-center justify-center">
-                    <img width={100} height={100} src="react.png" alt="" />
+                    <img width={100} height={100} src="node.png" alt="" />
                   </div>
 
                   <h2 className="text-lg font-bold mb-2 text-white">Node js</h2>

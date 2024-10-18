@@ -1,27 +1,51 @@
 [
-  {
-    "projectName": "PlateSwap",
-    "image": "plateswap.png",
-    "details": "PlateSwap is a web application aimed at facilitating food sharing and surplus reduction. It provides various features and functionalities to allow users to share surplus food items......",
-    "liveLink": "https://plateswap.netlify.app/",
-    "clientSite": "https://github.com/Tahsin411934/Food-Sharing-and-Surplus-Reduction-Platform-v1",
-    "serverSiteLink": "https://github.com/Tahsin411934/Food-Sharing-and-Surplus-Reduction-Platform-v1-serverSide"
-  },
+  
+  
   {
     "projectName": "FITFOCUS",
     "image": "FITFOCUS.png",
-    "details": "FitFocus is a comprehensive fitness management platform designed to streamline class bookings, trainer applications, and community engagement. The platform offers a robust set of features tailored for users, trainers...",
+    "details": "A fitness management platform to trainer bookings and community engagement.",
     "liveLink": "https://assignment-12af.netlify.app/",
     "clientSite": "https://github.com/Tahsin411934/FITFOCUS-client",
-    "serverSiteLink": "https://github.com/Tahsin411934/FITFOCUS-server"
+    "serverSiteLink": "https://github.com/Tahsin411934/FITFOCUS-server",
+    "skills": [
+      "tailwind.png",
+      "react (2).png",
+      "node.png",
+      "firebase.png",
+      "mongodb.png"
+    ]
+  },
+  {
+    "projectName": "PlateSwap",
+    "image": "plateswap-netlify.png",
+    "details": "A web application aimed at facilitating food sharing and surplus reduction.",
+    "liveLink": "https://plateswap.netlify.app/",
+    "clientSite": "https://github.com/Tahsin411934/Food-Sharing-and-Surplus-Reduction-Platform-v1",
+    "serverSiteLink": "https://github.com/Tahsin411934/Food-Sharing-and-Surplus-Reduction-Platform-v1-serverSide",
+    "skills": [
+      "tailwind.png",
+      "react (2).png",
+      "node.png",
+      "firebase.png",
+      "mongodb.png"
+    ]
   },
   {
     "projectName": "ShareTrip",
-    "image": "shareTrip.png",
-    "details": "ShareTrip project is a website dedicated to exploring tourist spots around the world. Users can browse through various tourist destinations, add their own spots, manage their list, and explore countries and their attractions...",
+    "image": "sharetrip-af-netlify.png",
+    "details": "A website dedicated to exploring tourist spots around the world. ",
     "liveLink": "https://sharetrip-af.netlify.app/",
     "clientSite": "https://github.com/Tahsin411934/Tourism-Management-Website-clientSide",
-    "serverSiteLink": "https://github.com/Tahsin411934/Tourism-Management-Website-serverSite-"
+    "serverSiteLink": "https://github.com/Tahsin411934/Tourism-Management-Website-serverSite-",
+    "skills": [
+      "tailwind.png",
+      "react (2).png",
+      "node.png",
+      "firebase.png",
+      "mongodb.png"
+      
+    ]
   },
   {
     "projectName": "LexVillas",
@@ -29,6 +53,13 @@
     "details": "Redesign of an existing ecommerce site to improve user experience and increase sales. Features include enhanced product search and streamlined checkout process.",
     "liveLink": "https://af-assignment-9.netlify.app/",
     "clientSite": "https://github.com/Tahsin411934/A-real-state-website",
-    "serverSiteLink": "https://github.com/Tahsin411934/A-real-state-website"
+    "serverSiteLink": "https://github.com/Tahsin411934/A-real-state-website",
+    "skills": [
+      "tailwind.png",
+      "react (2).png",
+      "node.png",
+      "firebase.png",
+      "mongodb.png"
+    ]
   }
 ]

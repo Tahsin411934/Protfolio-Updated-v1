@@ -13,7 +13,7 @@ export const HoverEffect = ({
 
   return (
     (<div
-      className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-8", className)}>
+      className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 justify-center item-center py-8", className)}>
       {items.map((item, idx) => (
         <Link
           href={item?.link}
@@ -37,7 +37,10 @@ export const HoverEffect = ({
                 }} />
             )}
           </AnimatePresence>
-          <Card>
+          
+
+          
+          <Card >
           <div className='flex justify-center items-center'>
           <img width={80} height={80}  src={item.image} alt="" />
                     </div>
@@ -47,8 +50,10 @@ export const HoverEffect = ({
             
             <CardDescription>{item.description}</CardDescription>
           </Card>
+         
         </Link>
       ))}
+      
     </div>)
   );
 };

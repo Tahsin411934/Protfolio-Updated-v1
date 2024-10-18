@@ -1,7 +1,8 @@
 import Banner from "./components/Banner/Banner";
+import Projects from "./components/Projects/Projects";
 import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
-import { Spotlight } from "./components/ui/Spotlight";
+
 
 import Header from "./Header";
 import useTheme from "./Hook/useTheme";
@@ -32,12 +33,12 @@ function App() {
       </section>
 
 
-      <section
-        id="contact"
-        className="h-screen bg-gray-400 flex items-center justify-center"
-      >
-        <h1 className="text-4xl">Contact Section</h1>
+      <section id="skills">
+        <Projects></Projects>
       </section>
+
+      
+     
     </div>
   );
 }
