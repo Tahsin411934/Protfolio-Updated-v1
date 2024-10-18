@@ -9,6 +9,7 @@ import { PiFacebookLogoBold } from 'react-icons/pi';
 import { TiSocialGithubCircular, TiSocialLinkedinCircular, TiSocialTwitterCircular } from 'react-icons/ti';
 import useTheme from '../../Hook/useTheme';
 import MouseParticles from 'react-mouse-particles'
+import { Spotlight } from '../ui/Spotlight';
 
 const Banner = () => {
   const { theme } = useTheme();
@@ -30,12 +31,12 @@ const Banner = () => {
   }, [theme]);
 
   return (
-    <div className={`${theme === 'light' ? 'bg-blue-100' : 'bg-[#040615] text-gray-300'} m-0 h-full pb-10 relative`}>
+    <div className={`${theme === 'light' ? 'bg-blue-100' : 'bg-[#040615] font-Inter text-gray-300'} m-0 h-full lg:h-screen pb-10 relative`}>
      <MouseParticles g={1} num={6} color="random" cull="stats,image-wrapper" level={6} />
       <div className="lg:grid grid-cols-2 pt-16 mx-auto px-10 lg:w-[85%] items-center gap-0">
         <div data-aos="fade-right" className="mb-10">
           <h2 className="text-2xl mb-1 font-bold">Hello, It's Me</h2>
-          <h1 className="lg:text-5xl text-4xl mb-1 font-bold">Abrar Fahim</h1>
+          <h1 className="lg:text-5xl text-3xl mb-1 font-bold">Abrar Fahim</h1>
           <MyComponent text="And I'm a " />
           <h1 className="pr-5 mt-6 font-semibold text-sm">
             Passionate MERN Stack Developer crafting seamless web solutions for enhanced user experiences and scalability.
@@ -54,6 +55,10 @@ const Banner = () => {
           <img key={theme} width={400} height={400} className="bg-none rounded-full" src={bgImage} alt="Profile" />
         </div>
       </div>
+      <Spotlight
+            className="absolute left-1/2 top-36 transform -translate-x-1/2 -translate-y-1/2 h-[80vh] w-[100vw]"
+            fill="gray"
+          />
     </div>
   );
 };

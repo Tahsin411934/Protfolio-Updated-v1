@@ -1,8 +1,9 @@
 
 import { AnimatePresence, motion } from "framer-motion";
-import Link from "next/link";
+// import Link from "next/link";
 import { useState } from "react";
 import { cn } from "../../lib/utils";
+import { Link } from "react-scroll";
 
 export const HoverEffect = ({
   items,
@@ -12,7 +13,7 @@ export const HoverEffect = ({
 
   return (
     (<div
-      className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10", className)}>
+      className={cn("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-8", className)}>
       {items.map((item, idx) => (
         <Link
           href={item?.link}
@@ -23,7 +24,7 @@ export const HoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-neutral-500 dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -37,7 +38,13 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
+          <div className='flex justify-center items-center'>
+          <img width={80} height={80}  src={item.image} alt="" />
+                    </div>
+                    <div className="text-center">
+                    <CardTitle>{item.title}</CardTitle>
+                    </div>
+            
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>

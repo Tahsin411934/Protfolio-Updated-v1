@@ -27,7 +27,7 @@ export default {
       fontFamily: {
         inter: '"Inter", sans-serif',
         Prata: '"Prata", serif',
-        Oswald: '"Oswald", sans-serif'
+        Inter: '"Inter", sans-serif'
       },
       colors: {
         primary: '#007BFF',

@@ -2,16 +2,16 @@
     {
       "image": "frontend.png",
       "title": "Frontend Development",
-      "details": "Crafting modern and responsive web interfaces using HTML, CSS, and JavaScript frameworks such as React.js and Vue.js. Ensuring cross-browser compatibility and optimal user experience."
+      "description": "Crafting modern and responsive web interfaces using HTML, CSS, and JavaScript frameworks such as React.js and Vue.js. Ensuring cross-browser compatibility and optimal user experience."
     },
     {
       "image": "backend.png",
       "title": "Backend Development",
-      "details": "Building robust server-side applications and APIs using Node.js and Express.js. Integrating with databases like MongoDB and MySQL to manage data storage and retrieval efficiently."
+      "description": "Building robust server-side applications and APIs using Node.js and Express.js. Integrating with databases like MongoDB and MySQL to manage data storage and retrieval efficiently."
     },
     {
       "image": "videoEditing.png",
       "title": "Video Editing",
-      "details": "Editing and enhancing video content with tools like Adobe Premiere Pro and Final Cut Pro. Adding effects, transitions, and audio adjustments to create professional-quality video."
+      "description": "Editing and enhancing video content with tools like Adobe Premiere Pro and Final Cut Pro. Adding effects, transitions, and audio adjustments to create professional-quality video."
     }
 ]
