@@ -35,7 +35,7 @@ const Banner = () => {
      <MouseParticles g={1} num={6} color="random" cull="stats,image-wrapper" level={6} />
       <div className="lg:grid grid-cols-2 pt-16 mx-auto px-10 lg:w-[85%] items-center gap-0">
         <div data-aos="fade-right" className="mb-10">
-          <h2 className="text-2xl mb-1 font-bold">Hello, It's Me</h2>
+          <h2 className="lg:text-2xl text-xl mb-1 font-bold">Hello, It's Me</h2>
           <h1 className="lg:text-5xl text-3xl mb-1 font-bold">Abrar Fahim</h1>
           <MyComponent text="And I'm a " />
           <h1 className="pr-5 mt-6 font-semibold text-sm">

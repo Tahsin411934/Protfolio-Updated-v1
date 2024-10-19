@@ -21,7 +21,7 @@ function App() {
         theme === "light" ? "border-gray-200 " : "border-[#14222e] bg-[#040615]"
       } w-full`}
     >
-      <div className=" z-10 w-full">
+      <div  className={`${theme === 'light' ? ' bg-blue-100' : 'bg-[#040615] text-gray-50'} z-10 w-full`}>
       <Header></Header>
       </div>
       
@@ -46,7 +46,7 @@ function App() {
       </section>
 
 
-      <section id="education">
+      <section id="education" className={`${theme === 'light' ? ' bg-blue-100' : ''} `} >
         <Education></Education>
       </section>
       <section id="contact">

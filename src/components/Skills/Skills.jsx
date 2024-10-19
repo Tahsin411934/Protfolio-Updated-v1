@@ -35,6 +35,76 @@ const Skills = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
+ <SwiperSlide>
+          <div className="flex justify-center items-center mt-20">
+            <div className="flex justify-center items-center mt-20">
+              <div
+                className="bg-gradient-to-t from-[#E44D21] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
+                style={{
+                  clipPath:
+                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
+                  animationDelay: "1s", // Adjust animation delay as needed
+                }}
+              >
+                <div className="absolute inset-0 text-center px-4 py-6">
+                  <div className="flex items-center justify-center">
+                    <img
+                      className="w-24 h-24"
+                      src="html.png"
+                      alt="React Logo"
+                    />
+                  </div>
+
+                  <h2 className="text-lg font-bold mb-2 text-white">HTML</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="flex mb-10 justify-center items-center mt-16 ">
+            <div className="flex justify-center items-center mt-20">
+              <div
+                className="bg-gradient-to-t from-[#2162AF] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
+                style={{
+                  clipPath:
+                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
+                }}
+              >
+                <div className="absolute text-center inset-0   px-4 py-8">
+                  <div className="flex items-center justify-center">
+                    <img width={100} height={100} src="css.png" alt="" />
+                  </div>
+
+                  <h2 className="text-lg font-bold mb-2 text-white">CSS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex justify-center items-center mt-20 ">
+            <div className="flex justify-center items-center mt-20">
+              <div
+                className="bg-gradient-to-t from-blue-700 to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
+                style={{
+                  clipPath:
+                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
+                  animationDelay: "2s",
+                }}
+              >
+                <div className="absolute text-center inset-0   px-4 py-8">
+                  <div className="flex items-center justify-center">
+                    <img width={100} height={100} src="tailwind.png" alt="tailwind.png" />
+                  </div>
+
+                  <h2 className="text-lg font-bold mb-2 text-white">tailwind css</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           <div className="flex justify-center items-center mt-20 ">
             <div className="flex justify-center items-center mt-20">
@@ -81,76 +151,6 @@ const Skills = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex mb-10 justify-center items-center mt-16 ">
-            <div className="flex justify-center items-center mt-20">
-              <div
-                className="bg-gradient-to-t from-[#0e151f] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
-                style={{
-                  clipPath:
-                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",  animationDelay: "3s", 
-                }}
-              >
-                <div className="absolute text-center inset-0   px-4 py-8">
-                  <div className="flex items-center justify-center">
-                    <img width={100} height={100} src="NEXTJS.jpg" alt="" />
-                  </div>
-
-                  <h2 className="text-lg font-bold mb-2 text-white">NextJS</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex mb-10 justify-center items-center mt-16 ">
-            <div className="flex justify-center items-center mt-20">
-              <div
-                className="bg-gradient-to-t from-[#2162AF] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
-                style={{
-                  clipPath:
-                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
-                }}
-              >
-                <div className="absolute text-center inset-0   px-4 py-8">
-                  <div className="flex items-center justify-center">
-                    <img width={100} height={100} src="css.png" alt="" />
-                  </div>
-
-                  <h2 className="text-lg font-bold mb-2 text-white">CSS</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        
-
-        <SwiperSlide>
-          <div className="flex justify-center items-center mt-20">
-            <div className="flex justify-center items-center mt-20">
-              <div
-                className="bg-gradient-to-t from-[#E44D21] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
-                style={{
-                  clipPath:
-                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
-                  animationDelay: "1s", // Adjust animation delay as needed
-                }}
-              >
-                <div className="absolute inset-0 text-center px-4 py-6">
-                  <div className="flex items-center justify-center">
-                    <img
-                      className="w-24 h-24"
-                      src="html.png"
-                      alt="React Logo"
-                    />
-                  </div>
-
-                  <h2 className="text-lg font-bold mb-2 text-white">HTML</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
 
         <SwiperSlide>
           <div className="flex justify-center items-center mt-20 ">
@@ -175,27 +175,31 @@ const Skills = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex justify-center items-center mt-20 ">
+          <div className="flex mb-10 justify-center items-center mt-16 ">
             <div className="flex justify-center items-center mt-20">
               <div
-                className="bg-gradient-to-t from-blue-700 to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
+                className="bg-gradient-to-t from-[#0e151f] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
                 style={{
                   clipPath:
-                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",
-                  animationDelay: "2s",
+                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",  animationDelay: "3s", 
                 }}
               >
                 <div className="absolute text-center inset-0   px-4 py-8">
                   <div className="flex items-center justify-center">
-                    <img width={100} height={100} src="tailwind.png" alt="tailwind.png" />
+                    <img width={100} height={100} src="NEXTJS.jpg" alt="" />
                   </div>
 
-                  <h2 className="text-lg font-bold mb-2 text-white">tailwind css</h2>
+                  <h2 className="text-lg font-bold mb-2 text-white">NextJS</h2>
                 </div>
               </div>
             </div>
           </div>
         </SwiperSlide>
+       
+
+       
+        
+        
 
         <SwiperSlide>
           <div className="flex justify-center items-center mt-20 ">
@@ -219,6 +223,28 @@ const Skills = () => {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="flex mb-10 justify-center items-center mt-16 ">
+            <div className="flex justify-center items-center mt-20">
+              <div
+                className="bg-gradient-to-t from-[#0e151f] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"
+                style={{
+                  clipPath:
+                    "polygon(49% 0, 100% 35%, 100% 60%, 100% 99%, 0 98%, 0% 60%, 0 0)",  animationDelay: "3s", 
+                }}
+              >
+                <div className="absolute text-center inset-0   px-4 py-8">
+                  <div className="flex items-center justify-center">
+                    <img width={100} height={100} src="express.png" alt="" />
+                  </div>
+
+                  <h2 className="text-lg font-bold mb-2 text-white">ExpressJS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
 
         <SwiperSlide>
           <div className="flex justify-center items-center mt-20">

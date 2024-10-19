@@ -39,8 +39,8 @@ const Project = ({ project }) => {
             />
           </div>
         </div>
-        <div className="bg-[#144182] p-4">
-          <div className="text-3xl font-semibold">
+        <div className="bg-[#144182] p-4 ">
+          <div className="text-3xl text-white font-semibold">
             <h1>{project.projectName}</h1>
           </div>
           <div className="text-slate-300">

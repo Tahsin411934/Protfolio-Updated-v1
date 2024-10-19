@@ -36,7 +36,7 @@ const Contract = () => {
     };
 
     return (
-        <div data-aos="fade-right" className={`font-inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#111828] text-gray-300'} m-0 pt-20 h-full`}>
+        <div data-aos="fade-right" className={`font-inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#111828] text-gray-300'} m-0 pt-1 h-full`}>
             <div className="text-3xl font-bold flex items-center justify-center p-10">
                 <h1 className="">Contact</h1>
             </div>
@@ -67,20 +67,20 @@ const Contract = () => {
                             </p>
                         </div>
                     </div>
-                    <form ref={form} onSubmit={handleSubmit(onSubmit)} noValidate className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+                    <form ref={form} onSubmit={handleSubmit(onSubmit)} noValidate className="flex  flex-col py-6 space-y-6 md:py-0 md:px-6">
                         <label className="block">
                             <span className="mb-1">Full name</span>
-                            <input type="text" {...register('fullName', { required: 'Full name is required' })} placeholder="Leroy Jenkins" className={`block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 ${errors.fullName ? 'border-red-500' : ''}`} />
+                            <input type="text" {...register('fullName', { required: 'Full name is required' })} placeholder="Leroy Jenkins" className={`text-gray-950 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 ${errors.fullName ? 'border-red-500' : ''}`} />
                             {errors.fullName && <span className="text-sm text-red-500">{errors.fullName.message}</span>}
                         </label>
                         <label className="block">
                             <span className="mb-1">Email address</span>
-                            <input type="email" {...register('email', { required: 'Email is required', pattern: { value: /^\S+@\S+$/i, message: 'Invalid email address' } })} placeholder="leroy@jenkins.com" className={`block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 ${errors.email ? 'border-red-500' : ''}`} />
+                            <input type="email" {...register('email', { required: 'Email is required', pattern: { value: /^\S+@\S+$/i, message: 'Invalid email address' } })} placeholder="leroy@jenkins.com" className={`text-gray-950 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 ${errors.email ? 'border-red-500' : ''}`} />
                             {errors.email && <span className="text-sm text-red-500">{errors.email.message}</span>}
                         </label>
                         <label className="block">
                             <span className="mb-1">Message</span>
-                            <textarea rows="3" {...register('message', { required: 'Message is required' })} className={`block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 ${errors.message ? 'border-red-500' : ''}`} />
+                            <textarea rows="3" {...register('message', { required: 'Message is required' })} className={`block w-full text-gray-950 rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 ${errors.message ? 'border-red-500' : ''}`} />
                             {errors.message && <span className="text-sm text-red-500">{errors.message.message}</span>}
                         </label>
                         <button type="submit" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600 border border-blue-400">Submit</button>

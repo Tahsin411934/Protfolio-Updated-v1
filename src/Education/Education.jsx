@@ -4,7 +4,7 @@ import useTheme from "../Hook/useTheme";
 const Education = () => {
     const { theme } = useTheme()
     return (
-        <div className={`font-inter  ${theme === 'light' ? 'bg-blue-100' : ' text-gray-300'} container mx-auto   pt-20 h-full`}>
+        <div className={`font-inter  ${theme === 'light' ? 'bg-blue-100' : ' text-gray-300'} container mx-auto pb-5 lg:pb-0  pt-20 h-full`}>
             <div className="text-3xl font-bold flex items-center justify-center p-10">
                 <h1 className="">Education</h1>
             </div>

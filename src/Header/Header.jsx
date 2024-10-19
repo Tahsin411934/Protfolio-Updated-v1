@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className={` container mx-auto lg:w-[85%] p-3  border-b  border-gray-800 font-inter`}>
       
-      <Navbar fluid rounded className={`${theme === 'light' ? 'bg-transparent' : 'bg-[#040615] text-gray-50'} `}>
+      <Navbar fluid rounded className={`${theme === 'light' ? ' bg-blue-100' : 'bg-[#040615] text-gray-50'} `}>
         <Navbar.Brand href="/">
           <span className="self-center whitespace-nowrap text-xl font-bold font-Prata">
             A<span className="text-yellow-500 font-bold text-xl"> . </span>Fahim
@@ -34,19 +34,21 @@ const Header = () => {
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse className={`text-xl ${theme === 'light' ? 'text-gray-800' : 'text-gray-50'}`}>
-          <ScrollLink to="home" smooth={true} duration={500} className="cursor-pointer">
+          <ScrollLink to="home" smooth={true} duration={500} className="cursor-pointerv hover:text-yellow-600">
             Home
           </ScrollLink>
-          <ScrollLink to="skills" smooth={true} duration={500} className="cursor-pointer">
-            Skills
-          </ScrollLink>
-          <ScrollLink to="services" smooth={true} duration={500} className="cursor-pointer">
+          
+          <ScrollLink to="services" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-600">
             Services
           </ScrollLink>
-          <ScrollLink to="projects" smooth={true} duration={500} className="cursor-pointer">
+
+          <ScrollLink to="skills" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-600">
+            Skills
+          </ScrollLink>
+          <ScrollLink to="projects" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-600">
             Projects
           </ScrollLink>
-          <ScrollLink to="education" smooth={true} duration={500} className="cursor-pointer">
+          <ScrollLink to="education" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-600">
             Education
           </ScrollLink>
         </Navbar.Collapse>
