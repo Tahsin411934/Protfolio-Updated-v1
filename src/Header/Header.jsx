@@ -27,7 +27,7 @@ const Header = () => {
               <div
                 className={`${
                   theme === 'light' ? 'bg-[#081927] text-gray-50' : 'bg-blue-100'
-                } absolute left-0 w-6 h-6 rounded-full shadow -inset-y-1 peer-checked:right-0 peer-checked:left-auto dark:bg-violet-600`}
+                } absolute left-0  w-6 h-6 rounded-full shadow -inset-y-1 peer-checked:right-0 peer-checked:left-auto dark:bg-violet-600`}
               ></div>
             </span>
           </label>
