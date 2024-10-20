@@ -1,3 +1,4 @@
+import { Button } from "../components/ui/moving-border";
 import useTheme from "../Hook/useTheme";
 
 
@@ -7,6 +8,7 @@ const Footer = () => {
     return (
         <div className={`${theme === 'light' ? 'bg-blue-100' : 'bg-[#0F172A] text-gray-300'} border-t border-gray-800 m-0 h-full pb-0`}>
             <div className="lg:w-[30%] mx-auto text-center mt-10">
+                
                 <h2 className="font-semibold text-xl mb-3 ">Reach Me Out</h2>
                 <hr className='-ml-0 h-[1px] border-none mb-4 bg-slate-200 mx-auto w-[100%]' />
                 <div className="social-links flex items-center gap-2 ">

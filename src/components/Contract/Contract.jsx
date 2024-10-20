@@ -36,7 +36,7 @@ const Contract = () => {
     };
 
     return (
-        <div data-aos="fade-right" className={`font-inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#111828] text-gray-300'} m-0 pt-1 h-full`}>
+        <div data-aos="fade-right" className={`font-inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#111828] text-[#BEB3CF]'} m-0 pt-1 h-full`}>
             <div className="text-3xl font-bold flex items-center justify-center p-10">
                 <h1 className="">Contact</h1>
             </div>

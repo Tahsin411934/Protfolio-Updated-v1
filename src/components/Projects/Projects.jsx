@@ -14,7 +14,7 @@ const Projects = () => {
     })
     
     return (
-        <div className={`font-Inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#111828] text-gray-300'}  m-0 p-0 h-full`}>
+        <div className={`font-Inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#111828] text-[#BEB3CF]'}  m-0 p-0 h-full`}>
             <div className="text-3xl font-bold flex items-center justify-center p-10">
                 <h1 className="">Latest Projects</h1>
             </div>

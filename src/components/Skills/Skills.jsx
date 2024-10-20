@@ -1,15 +1,14 @@
 import "./Skills.css";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import useTheme from "../../Hook/useTheme";
 
 const Skills = () => {
+  const {theme} = useTheme()
   return (
-    <div className="pt-10 pb-24 text-slate-50 font-Inter">
+    <div className={`pt-10 pb-24 font-Inter ${theme === 'light' ? 'bg-gray-200' : 'bg-[#070d1b] text-[#BEB3CF]'}`}>
       <div className="text-3xl font-bold flex items-center justify-center ">
         <h1 className="">My Skills</h1>
       </div>
